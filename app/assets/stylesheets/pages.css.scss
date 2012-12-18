@@ -1,0 +1,31 @@
+.home {
+	background: url(bg_home.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  	width: 100%;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	height: 100%;
+  	font-family: 'Raleway', sans-serif;
+  	color: white;
+
+  	.detail {
+  		padding: 20px;
+  		position: absolute;
+  		bottom: 0;
+
+  		a {
+  			text-decoration: none;
+  			color: #357cfa;
+  		}
+  	}
+
+
+  	h1 {
+  		font-weight: 300;
+  		font-size: 44px;
+  	}
+}

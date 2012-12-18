@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  circle_id: 1
+  request_user_id: 1
+  accept_user_id: 1
+
+two:
+  circle_id: 1
+  request_user_id: 1
+  accept_user_id: 1

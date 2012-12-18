@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Circle:</b>
+  <%= @relationship.circle_id %>
+</p>
+
+<p>
+  <b>Request user:</b>
+  <%= @relationship.request_user_id %>
+</p>
+
+<p>
+  <b>Accept user:</b>
+  <%= @relationship.accept_user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_relationship_path(@relationship) %> |
+<%= link_to 'Back', relationships_path %>
