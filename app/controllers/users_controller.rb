@@ -31,6 +31,12 @@ class UsersController < ApplicationController
       format.json { render json: @user }
     end
   end
+  
+  def details
+    @user = User.new
+    @title = "Identify"
+    @details = @user.details.build
+  end
 
   # GET /users/1/edit
   def edit

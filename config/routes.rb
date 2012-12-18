@@ -10,6 +10,7 @@ Circleapp::Application.routes.draw do
   resources :details
 
   resources :users
+  get '/user-details' => 'users#details'
 
   root :to => 'pages#home'
 
